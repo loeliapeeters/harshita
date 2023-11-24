@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #ffd9e6; /* Pink background color */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .birthday-card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Arial', sans-serif;
+      color: #ff6f61;
+    }
+
+    p {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #ff6f61;
+      border-radius: 50%;
+      animation: confetti-fall 1s linear infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="birthday-card">
+    <div class="confetti"></div>
+    <h1>Happy Birthday!</h1>
+    <p>Wishing a fantastic day to someone incredibly special. You're not just a friend; you're an essential part of my life. Your presence brings joy and warmth to my world. Here's to celebrating you,Harshita!</p>
+    <!-- <img src="https://ibb.co/LP29R8z" alt="Birthday Celebrations"> -->
+    <a href="https://ibb.co/LP29R8z"><img src="https://i.ibb.co/7z6rCXJ/Whats-App-Image-2023-11-24-at-8-28-21-PM.jpg" alt="Whats-App-Image-2023-11-24-at-8-28-21-PM" border="0" /></a>
+  </div>
+</body>
+</html>
